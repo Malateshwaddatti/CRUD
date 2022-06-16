@@ -1,0 +1,59 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    #051937,
+    #004870,
+    #007da2,
+    #00b6c2,
+    #00f0cf
+  );
+  padding: 50px;
+}
+.user-container {
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 15px;
+  transition: 0.5s all;
+}
+.user-container:hover {
+  transform: scale(1.1);
+  color: #ff004cee;
+}
+.user-image {
+  border-radius: 50%;
+}
+.user-name {
+  font-family: "Birthstone", cursive;
+  font-size: 30px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+.user-form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.delete {
+  background: blue;
+  color: white;
+  width: 75px;
+  height: 35px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+.edit {
+  background: blue;
+  color: white;
+  width: 75px;
+  height: 35px;
+  border-radius: 20px;
+  margin-left: 30px;
+}
